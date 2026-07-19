@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#1f0202" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#ff3b3b" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <circle cx="375" cy="250" r="220" fill="url(#glow)" />
+  <circle cx="820" cy="520" r="260" fill="url(#glow)" />
+  <rect x="150" y="150" width="900" height="500" rx="40" ry="40" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.14)" stroke-width="2" />
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="Poppins, sans-serif" font-size="64" fill="#ffffff">Hero Image Placeholder</text>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-family="Poppins, sans-serif" font-size="32" fill="#ff3b3b">Replace with your own image</text>
+</svg>
