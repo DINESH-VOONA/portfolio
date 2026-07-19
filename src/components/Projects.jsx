@@ -5,21 +5,21 @@ function Projects() {
       description:
         'Machine Learning-based system for eye blink detection and communication, enabling hands-free interaction for individuals with mobility challenges.',
       tags: ['Machine Learning', 'Python', 'OpenCV', 'TensorFlow'],
-      image: '/Eye_Blink.png',
+      image: `${import.meta.env.BASE_URL}Eye_Blink.png`,
     },
     {
       title: 'Personal Digital Library Management',
       description:
         'Comprehensive library management system with book cataloging, user management, and loan tracking features for efficient library operations.',
       tags: ['Java', 'Spring Boot', 'MySQL', 'React'],
-      image: '/Libray.png',
+      image: `${import.meta.env.BASE_URL}Libray.png`,
     },
     {
       title: 'Bus Travels Management System',
       description:
         'Full-stack web application for bus booking, route management, and passenger tracking with secure payment integration and real-time updates.',
       tags: ['Spring Boot', 'Hibernate', 'REST API', 'MySQL'],
-      image: '/Bus.png',
+      image: `${import.meta.env.BASE_URL}Bus.png`,
     },
   ];
 

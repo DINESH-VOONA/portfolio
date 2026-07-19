@@ -52,7 +52,7 @@ function Home() {
               <div className="absolute -left-20 top-8 h-48 w-48 rounded-full bg-red-500/20 blur-3xl" />
               <div className="absolute -right-16 bottom-6 h-64 w-64 rounded-full bg-red-500/10 blur-3xl" />
 
-              <img src="/computer.png" alt="Hero" className="h-full w-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}computer.png`} alt="Hero" className="h-full w-full object-cover" />
             </div>
           </div>
         </div>

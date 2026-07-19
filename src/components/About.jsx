@@ -15,7 +15,7 @@ function About() {
               <div className="absolute -left-16 top-6 h-40 w-40 rounded-full bg-red-500/20 blur-3xl" />
               <div className="absolute -right-14 bottom-6 h-48 w-48 rounded-full bg-red-500/10 blur-3xl" />
 
-              <img src="/Dinesh_Photo.png" alt="Profile" className="h-full w-full object-cover" />
+              <img src={`${import.meta.env.BASE_URL}Dinesh_Photo.png`} alt="Profile" className="h-full w-full object-cover" />
             </div>
           </div>
 
